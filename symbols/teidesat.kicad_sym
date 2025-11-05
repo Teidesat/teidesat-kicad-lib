@@ -239,17 +239,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IS37SML01G1-MLI-TY"
+		(property "Reference" "U"
 			(at 0.508 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" ""
-			(at 0 0 0)
+			(at -0.254 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -275,7 +274,7 @@
 			)
 		)
 		(property "Description" "1Gbit NAND Flash"
-			(at 0 0 0)
+			(at -0.254 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
