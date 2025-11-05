@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "CY15B108QN-40SXI"
 			(at 0 0 0)
 			(effects
 				(font
@@ -247,7 +247,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "IS37SML01G1-MLI-TY"
 			(at -0.254 4.572 0)
 			(effects
 				(font
@@ -623,7 +623,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "M95M02-DRCS6TP/K"
 			(at 0 0 0)
 			(effects
 				(font
@@ -856,7 +856,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MR25H40VDF"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1089,7 +1089,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MT25TL01GBBB8ESF-0AAT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1469,7 +1469,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "W25N01GVZEIGCT"
 			(at 0 0 0)
 			(effects
 				(font
