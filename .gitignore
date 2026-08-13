@@ -1,1 +1,44 @@
+# ==========================================
+# TeideSat KiCad .gitignore
+# ==========================================
+
+# Archivos de caché y temporales de KiCad
+*.fp-info-cache
+fp-info-cache
+*.tmp
 *.bak
+*-bak
+*~
+_autosave-*
+*.lck
+
+# Archivos de sesión de usuario (no deben compartirse)
+*.kicad_prl
+*.kicad_wks-bak
+
+# Archivos de rescate de esquemas
+*-rescue.kicad_sch
+*-rescue.lib
+*-rescue.dcm
+
+# Archivos de configuración local o de usuario
+fp-lib-table
+sym-lib-table
+
+# Archivos generados (Gerbers, Drill, BOMs)
+*.gbr
+*.drl
+*.pos
+*.csv
+*.xml
+*.pdf
+*.zip
+*.gbrjob
+*.svg
+gerbers/
+bom/
+produccion/
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
