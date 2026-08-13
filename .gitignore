@@ -11,6 +11,7 @@ fp-info-cache
 *~
 _autosave-*
 *.lck
+.history
 
 # Archivos de sesión de usuario (no deben compartirse)
 *.kicad_prl
