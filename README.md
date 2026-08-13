@@ -67,6 +67,27 @@ Organized by **physical package/shape**:
 The folder structure here **must strictly mirror** the `.pretty` folders.
 Example: A footprint in `TEIDESAT_Package_SOIC.pretty` must have its `.step` file in `/3dmodels/TEIDESAT_Package_SOIC/`.
 
+## 📂 Project Templates
+
+To standardize the satellite's hardware and ensure all boards fit into the mechanical structure, we use **KiCad Templates**. These templates already include the form factor (PC/104), the official TeideSat Title Block, the layer stackup, and the Design Rule Checks (DRC) validated for manufacturing.
+
+### Template Configuration (First-time setup only)
+For KiCad to automatically detect our templates:
+
+1. Open KiCad and go to **Preferences > Configure Paths...**.
+2. Add a new environment variable by clicking the `+` button.
+3. Name it exactly like this: `KICAD_USER_TEMPLATE_DIR`
+4. For the path, select the `templates` folder located inside this repository (`path_to_the_repository/templates`).
+5. Click **OK**.
+
+### How to start a new board for the CubeSat
+Never start a blank project! 
+
+1. On the KiCad main screen, go to **File > New Project from Template...**.
+2. You will see a new tab called **User Templates**.
+3. Select the appropriate template for your subsystem (for example, `TeideSat_CubeSat_4L_Standard`).
+4. Choose where to save your new project, and you are all set! You now have the Title Block, board outline, and design rules preconfigured.
+
 ---
 
 ## 3. Component Creation Rules ⚠️
